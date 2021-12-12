@@ -1,0 +1,25 @@
+body{
+
+	background-image: url('./assets/books.blur.jpg');
+	background-size: 100%;
+}
+
+.content {
+  border-radius: 10px;
+  background-color:rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  padding: 100px;
+  margin: 40px;
+  z-index: 9;
+}
+
+img{
+
+	width: 100%;
+	border-radius: 10px;
+
+}
+.navbar{
+   
+   background-color: #46446B;
+}
