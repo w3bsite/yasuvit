@@ -1,11 +1,9 @@
-import("./bootstrap.min.css");
 const url = "https://jsonplaceholder.typicode.com";
 const row = document.querySelector("#row");
 row.innerHTML = ``;
 var card = (title, body, i) => {
     return `<div class="col-4 mb-5 p-3 bg-dark"  >
               <div class="bg-white rounded" style='min-height:300px !important'>
-                  <h2>${i + 1}</h2>
                 <img class="card-img-top" src="https://source.unsplash.com/random/200x11${i}/" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">${title.substring(0, 20)}</h5>
