@@ -1,3 +1,4 @@
+import("./bootstrap.min.css");
 const url = "https://jsonplaceholder.typicode.com";
 const row = document.querySelector("#row");
 row.innerHTML = ``;
