@@ -50,3 +50,5 @@ function load(x: number) {
 (async function () {
     await load(0);
 })();
+window.load = load;
+window.buttom = buttom;
